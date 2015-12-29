@@ -1,0 +1,23 @@
+{
+    "name": "jp3cki/yii2-jquery-color",
+    "description": "jQuery Color Assets for Yii Framework 2.",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AIZAWA Hina",
+            "email": "hina@bouhime.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "bower-asset/jquery-color": "^2.1",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jp3cki\\yii2\\jqueryColor\\": "src/"
+        }
+    }
+}
